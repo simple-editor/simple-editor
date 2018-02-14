@@ -41,7 +41,7 @@ function createWindow(arguments) {
 
   //Load window
   window.loadURL(url.format({
-    pathname: path.join(__dirname, 'index.html'),
+    pathname: path.join(__dirname, '../static/index.html'),
     protocol: 'file',
     slashes: true
   }));
