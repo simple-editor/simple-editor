@@ -46,6 +46,10 @@ function createWindow(arguments) {
     slashes: true
   }));
 
+  //Enable dev tools, to debug the app
+  // TODO: Enable this only if configuraiton (Enviornmental variables) is set to debug mode/development
+  window.webContents.openDevTools();
+
   //Garbage collection  if window is closed
   window.on('closed',
     (arguments) => {
