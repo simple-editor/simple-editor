@@ -1,0 +1,10 @@
+{
+  "name": "simple-editor",
+  "version": "1.0.0",
+  "description": "A modern hackable text editor",
+  "main": "src/index.js",
+  "repository": "https://github.com/simple-editor/simple-editor.git",
+  "author": "Muhand Jumah <muhandjumah@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
